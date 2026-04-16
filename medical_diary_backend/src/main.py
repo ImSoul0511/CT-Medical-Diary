@@ -31,4 +31,4 @@ app.include_router(user.router)
 
 @app.get("/", tags=["Root"])
 async def root():
-    return {"message": "Welcome to Medical Diary API 🩺"}
+    return {"message": "Welcome to Medical Diary API"}
